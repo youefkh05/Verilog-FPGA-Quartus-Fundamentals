@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Half_Adder
-Sun Nov 23 12:22:19 2025
+Sun Nov 23 13:34:01 2025
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Nov 23 12:22:19 2025       ;
+; Analysis & Synthesis Status        ; Successful - Sun Nov 23 13:34:01 2025       ;
 ; Quartus Prime Version              ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
 ; Revision Name                      ; Half_Adder                                  ;
 ; Top-level Entity Name              ; Half_Adder                                  ;
@@ -155,12 +155,12 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
+; Average used               ; 1.01        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
+;     Processors 2-4         ;   0.3%      ;
 +----------------------------+-------------+
 
 
@@ -250,7 +250,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -260,11 +260,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
-    Info: Processing started: Sun Nov 23 12:22:08 2025
+    Info: Processing started: Sun Nov 23 13:33:49 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Half_Adder -c Half_Adder
 Info (20032): Parallel compilation is enabled and will use up to 4 processors
 Info (12021): Found 1 design units, including 1 entities, in source file half_adder.v
     Info (12023): Found entity 1: Half_Adder File: D:/Materials - CUFE/EECE 25 dash/Fourth year/assignment/Verilog-FPGA-Quartus-Fundamentals/Codes/Half Adder/Half_Adder.v Line: 1
+Info (12021): Found 2 design units, including 1 entities, in source file half_adder.vhd
+    Info (12022): Found design unit 1: Half_Adder1-Behavioral File: D:/Materials - CUFE/EECE 25 dash/Fourth year/assignment/Verilog-FPGA-Quartus-Fundamentals/Codes/Half Adder/Half_Adder.vhd Line: 15
+    Info (12023): Found entity 1: Half_Adder1 File: D:/Materials - CUFE/EECE 25 dash/Fourth year/assignment/Verilog-FPGA-Quartus-Fundamentals/Codes/Half Adder/Half_Adder.vhd Line: 5
 Info (12127): Elaborating entity "Half_Adder" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -274,9 +277,9 @@ Info (21057): Implemented 6 device resources after synthesis - the final resourc
     Info (21059): Implemented 2 output pins
     Info (21061): Implemented 2 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4790 megabytes
-    Info: Processing ended: Sun Nov 23 12:22:19 2025
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:19
+    Info: Peak virtual memory: 4853 megabytes
+    Info: Processing ended: Sun Nov 23 13:34:01 2025
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:20
 
 
