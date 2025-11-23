@@ -1,0 +1,41 @@
+|Complex_Adder
+Ar[0] => Mult0.IN2
+Ar[0] => Mult2.IN2
+Ar[1] => Mult0.IN1
+Ar[1] => Mult2.IN1
+Ar[2] => Mult0.IN0
+Ar[2] => Mult2.IN0
+Ai[0] => Mult1.IN2
+Ai[0] => Mult3.IN2
+Ai[1] => Mult1.IN1
+Ai[1] => Mult3.IN1
+Ai[2] => Mult1.IN0
+Ai[2] => Mult3.IN0
+Br[0] => Mult0.IN5
+Br[0] => Mult3.IN5
+Br[1] => Mult0.IN4
+Br[1] => Mult3.IN4
+Br[2] => Mult0.IN3
+Br[2] => Mult3.IN3
+Bi[0] => Mult1.IN5
+Bi[0] => Mult2.IN5
+Bi[1] => Mult1.IN4
+Bi[1] => Mult2.IN4
+Bi[2] => Mult1.IN3
+Bi[2] => Mult2.IN3
+Yr[0] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+Yr[1] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+Yr[2] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+Yr[3] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+Yr[4] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+Yr[5] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+Yr[6] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+Yi[0] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+Yi[1] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+Yi[2] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+Yi[3] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+Yi[4] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+Yi[5] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+Yi[6] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+

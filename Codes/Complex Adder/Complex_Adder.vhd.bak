@@ -1,0 +1,46 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all; -- Required for signed arithmetic
+
+-- Define the Entity (the component's interface)
+entity Complex_Multiplier is
+    port (
+        -- Inputs: 3-bit signed components for A and B
+        Ar : in signed(2 downto 0); -- A Real
+        Ai : in signed(2 downto 0); -- A Imaginary
+        Br : in signed(2 downto 0); -- B Real
+        Bi : in signed(2 downto 0); -- B Imaginary
+        
+        -- Outputs: 7-bit signed components for Y (Product)
+        Yr : out signed(6 downto 0); -- Y Real (Ar.Br - Ai.Bi)
+        Yi : out signed(6 downto 0)  -- Y Imaginary (Ar.Bi + Ai.Br)
+    );
+end entity Complex_Multiplier;
+
+-- Define the Architecture (the component's behavior)
+architecture Behavioral of Complex_Multiplier is
+    -- Internal signals to store the 6-bit intermediate multiplication results
+    -- 3 bits * 3 bits = 6 bits
+    signal P1 : signed(5 downto 0); -- Ar * Br
+    signal P2 : signed(5 downto 0); -- Ai * Bi
+    signal P3 : signed(5 downto 0); -- Ar * Bi
+    signal P4 : signed(5 downto 0); -- Ai * Br
+
+begin
+    -- 1. Perform the four independent multiplications
+    P1 <= Ar * Br;
+    P2 <= Ai * Bi;
+    P3 <= Ar * Bi;
+    P4 <= Ai * Br;
+    
+    -- 2. Calculate the Real Part (Yr)
+    -- Extend P1 and P2 to 7 bits before subtraction (to prevent overflow)
+    -- Yr = P1 - P2
+    Yr <= (resize(P1, Yr'length) - resize(P2, Yr'length));
+
+    -- 3. Calculate the Imaginary Part (Yi)
+    -- Extend P3 and P4 to 7 bits before addition (to prevent overflow)
+    -- Yi = P3 + P4
+    Yi <= (resize(P3, Yi'length) + resize(P4, Yi'length));
+
+end architecture Behavioral;

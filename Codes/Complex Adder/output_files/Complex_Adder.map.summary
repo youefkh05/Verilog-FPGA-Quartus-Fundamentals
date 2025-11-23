@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Nov 23 13:19:33 2025
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : Complex_Adder
+Top-level Entity Name : Complex_Adder
+Family : Cyclone IV E
+Total logic elements : 82
+    Total combinational functions : 82
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 26
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
