@@ -1,0 +1,116 @@
+$comment
+	File created using the following command:
+		vcd file Half_Adder.msim.vcd -direction
+$end
+$date
+	Sun Nov 23 12:16:36 2025
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Half_Adder_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var wire 1 # Carry $end
+$var wire 1 $ Sum $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + Sum~output_o $end
+$var wire 1 , Carry~output_o $end
+$var wire 1 - A~input_o $end
+$var wire 1 . B~input_o $end
+$var wire 1 / Sum~0_combout $end
+$var wire 1 0 Carry~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+0-
+0.
+0/
+00
+$end
+#5000
+1!
+1-
+1/
+1+
+1$
+#10000
+1"
+0!
+1.
+0-
+#15000
+1!
+1-
+10
+0/
+0+
+1,
+1#
+0$
+#20000
+0"
+0!
+0.
+0-
+00
+0,
+0#
+#30000
+1"
+1!
+1.
+1-
+10
+1,
+1#
+#40000
+0"
+0!
+0.
+0-
+00
+0,
+0#
+#45000
+1"
+1!
+1.
+1-
+10
+1,
+1#
+#50000
+0"
+0!
+0.
+0-
+00
+0,
+0#
+#100000

@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Materials - CUFE/EECE 25 dash/Fourth year/assignment/Verilog-FPGA-Quartus-Fundamentals/Codes/Half Adder/simulation/qsim
+vHalf_Adder
+Z1 !s110 1763892995
+!i10b 1
+!s100 _F@ImTFZYLn6YEMU:E]5d0
+IEKW9WdE=9bWAE0TMTGfU02
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1763892995
+Z4 8Half_Adder.vo
+Z5 FHalf_Adder.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1763892995.000000
+Z8 !s107 Half_Adder.vo|
+Z9 !s90 -work|work|Half_Adder.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@half_@adder
+vHalf_Adder_vlg_vec_tst
+R1
+!i10b 1
+!s100 <Szji<m_BHoZbRPad9Aed3
+II2Tl@G72U`[CQmk5KhEbF1
+R2
+R0
+w1763892994
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@half_@adder_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 Y:WTJf@XCOZLPZ2Pf=nLz0
+I9SF0^c3KWJM=T=BF8kNAL3
+R2
+R0
+R3
+R4
+R5
+L0 159
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
